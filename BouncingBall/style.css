@@ -1,0 +1,77 @@
+
+.coloChanger{
+    display: flex;
+    margin-left: 550px;
+    margin-top: 200px;
+    
+}
+ .button1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: blue;
+    animation: ZigZag1 1s infinite;
+    
+}
+@keyframes ZigZag1{
+    from{
+        transform: translateY(-50%);
+    }
+    to{
+        transform: translateY(100%);
+    }
+}
+.button2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: green;
+    animation: ZigZag2 1s infinite;
+
+} 
+@keyframes ZigZag2{
+    from{
+        transform: translateX(-300%);
+    }
+    to{
+        transform: translateY(55%);
+    }
+}
+ .button3{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: red;
+    animation: ZigZag3 2s infinite;
+
+    
+}
+@keyframes ZigZag3{
+    from{
+        transform: translateX(300%);
+    }
+    to{
+        transform: translateY(5   5%);
+    }
+}
+.button4 {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: aqua;
+    animation: ZigZag4 1s infinite;
+} 
+
+@keyframes ZigZag4{
+    from{
+        transform: translateY(-50%);
+    }
+    to{
+        transform: translateY(100%);
+    }
+}
+ 
